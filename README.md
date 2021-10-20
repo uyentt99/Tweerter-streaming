@@ -22,7 +22,7 @@ STREAMING TWITTER & PHÂN TÍCH XU HƯỚNG SỬ DỤNG ĐIỆN THOẠI CỦA NG
     + 1 Cụm hadoop dùng để lưu trữ dữ liệu phục vụ mục đích phân tích
     + 1 Application nhận đầu vào là TWITTER API, đẩy dữ liệu vào kafka
     + 1 Pyspark notebook để phân tích, visualize
-![system](https://github.com/uyentt99/TweerterStreming/system.png)
+![system](https://github.com/uyentt99/TweerterStreming/blob/master/System.png)
 
  # File thư mục:
  - Report_document: file PDF báo cáo
