@@ -1,11 +1,11 @@
 # TweerterStreming
 STREAMING TWITTER & PHÂN TÍCH XU HƯỚNG SỬ DỤNG ĐIỆN THOẠI CỦA NGƯỜI DÙNG TWITTER
-# Thành viên nhóm:
+## Thành viên nhóm:
 - Phạm Minh Khiêm 
 - Nguyễn Văn Chức
 - Trần Thị Uyên 
 - Ngô Văn Giang 
-# Mục đích :
+## Mục đích :
 - Nhóm mong muốn xây dựng mô phỏng một hệ thống big data, mục đích là streaming twitter tweets của người dùng twitter từ hệ thống TWITTER API, tiền xử lý dữ liệu, lưu vào hệ thống và thực hiện các tính toán phân tích về xu hướng sử dụng điện thoại của người dùng TWITTER
 - Các thông tin phân tích trả lời các câu hỏi :
     + Người dùng TWITTER sử dụng thiết bị nào để truy cập ?
@@ -14,7 +14,7 @@ STREAMING TWITTER & PHÂN TÍCH XU HƯỚNG SỬ DỤNG ĐIỆN THOẠI CỦA NG
     + Quốc gia nào có nhiều người dùng thích sử dụng thiết bị ANDROID nhất ?
     + ..
    
-# Thành phần của hệ thống:    
+## Thành phần của hệ thống:    
 - Hệ thống mô phỏng bao gồm các thành phần như một hệ thống thật, cài đặt trên máy ảo Docker
 - Các thành phần trong hệ thống :
     + 1 Cụm kafka dùng để streaming dữ liệu
@@ -24,7 +24,7 @@ STREAMING TWITTER & PHÂN TÍCH XU HƯỚNG SỬ DỤNG ĐIỆN THOẠI CỦA NG
     + 1 Pyspark notebook để phân tích, visualize
 ![system](https://github.com/uyentt99/TweerterStreming/blob/master/System.png)
 
- # File thư mục:
+ ## File thư mục:
  - Report_document: file PDF báo cáo
  - notebook: file jupyter notebook báo cáo, bao gồm code để xử lý và biểu diễn dữ liệu sau khi đã steaming vê cụm HDFS
  - 1 số docker-compose cho HDFS, Spark và pyspark
